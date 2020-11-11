@@ -1,0 +1,58 @@
+.browse_photos>button{
+    background-color: #FFFFFF;
+    color: #669885;
+    border: none;
+
+
+}
+
+.browse_photos>button:hover{
+    opacity: 30%;
+}
+
+.browse_photos>button:active{
+    opacity: 100%;
+}
+
+
+.browse_photos>p{
+    color: #393939;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.br_button>button {
+    background-color: #FFFFFF;
+    border-radius: 17px;
+    color: #669885;
+    border: solid #669885 1px;
+}
+
+.br_button>button:hover{
+    background-color: lightgray;
+}
+
+.br_button>button:active{
+    border: solid gray 2px;
+}
+
+
+
+.img_list {
+    border: solid #669885 1px;
+    font-size: 0.75rem;
+    color: #393939;
+}
+
+.img_list>div>button{
+    background-color: #FFFFFF;
+    height: 1rem;
+    width: 1rem;
+    color: #669885;
+    font-size: 0.75rem;
+    border: none;
+}
+
+.img_list>div>button:active{
+    opacity: 30%;
+}

@@ -1,0 +1,32 @@
+.headerGreen {
+    background: #669885 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000029;
+    opacity: 1;
+}
+
+.signInButton {
+    color: #FFFFFF;
+    height: 3rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 2rem;
+    opacity: 1;
+    background: #669885 0 0 no-repeat padding-box;
+
+}
+
+
+
+.signInButton:hover {
+    background-color: #FFFFFF;
+    color: #669885;
+}
+
+
+.signInButton:active {
+    opacity: 30%;
+}
+
+.bars {
+    color: #FFFFFF;
+
+}

@@ -1,0 +1,160 @@
+.but_1, .but_2, .but_deactivate {
+    color: #FFFFFF;
+    background: #84B6A3 0 0 no-repeat padding-box;
+    /*margin: -1px;*/
+    height: 2rem;
+    border: none;
+}
+
+.but_deactivate{
+    font-size: 0.75rem;
+}
+
+
+.active {
+    opacity: 1;
+}
+
+.passive {
+    opacity: 0.28;
+}
+
+.empty_board {
+    /*width: 41rem;*/
+    min-height: auto;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000029;
+    opacity: 1;
+    margin: 1rem;
+    margin-top: 0;
+    padding: 1rem;
+}
+
+.profile_user_photo {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: #84B6A3 solid 2px;
+}
+
+.profile_user_name {
+    font-size: 1rem;
+    color: #84B6A3;
+}
+
+
+.profile_upd_button {
+    margin: 0 1rem;
+    width: 1.2rem;
+    height: 1rem;
+    background-color: #FFFFFF;
+    color: gray;
+    border: none;
+}
+
+.upd_photo_div {
+    position: relative;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: none;
+}
+
+.upd_photo_button {
+    position: absolute;
+    left: 2.7rem;
+    top: 2.7rem;
+
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: none;
+    background-color: #FFFFFF;
+    color: #669885;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.profile_form label {
+    color: #393939;
+    /*font-size: 1rem;*/
+    margin-right: 2rem;
+}
+
+.profile_form input {
+    border: none;
+    border-bottom: solid #669885 1px;
+    font-size: 0.6rem;
+    color: #669885;
+    /*width: 20rem;*/
+
+}
+
+.deactivated {
+    filter: blur(0.3rem);
+    -webkit-filter: blur(0.3rem);
+}
+
+.cancelChangesBut{
+    background-color: #FFFFFF;
+    border: solid #669885 1px;
+    border-radius: 1rem;
+    color: #8DBFAC;
+
+}
+
+.saveChangesBut{
+    background-color: #8DBFAC;
+    border: solid #669885 1px;
+    border-radius: 1rem;
+    color: #FFFFFF;
+
+
+}
+
+.saveChangesBut {
+    /*width: 10rem;*/
+    height: 2.5rem;
+    background: #84B6A3 0 0 no-repeat padding-box;
+    border: 1px solid #8DBFAC;
+    border-radius: 17px;
+    opacity: 1;
+    color: #FFFFFF;
+    font-size: 0.75rem;
+    /*margin: 0 1rem;*/
+}
+
+.saveChangesBut:hover, .cancelChangesBut:hover {
+    background-color: lightgrey;
+}
+
+.saveChangesBut:active, .cancelChangesBut:active {
+    border: solid gray 3px;
+}
+
+.saveChangesBut i {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: lighter;
+    height: 1rem;
+}
+
+.cancelChangesBut i{
+    color: #669885;
+    font-size: 1rem;
+    font-weight: lighter;
+    height: 1rem;
+}
+
+
+.cancelChangesBut{
+    /*width: 8rem;*/
+    height: 2.5rem;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    border: 1px solid #669885;
+    border-radius: 17px;
+    opacity: 1;
+    color: #669885;
+    font-size: 0.75rem;
+    /*margin-right: 1rem;*/
+}

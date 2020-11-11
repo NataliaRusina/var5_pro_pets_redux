@@ -1,0 +1,85 @@
+.empty_board {
+    width: 41rem;
+    min-height: auto;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000029;
+    opacity: 1;
+
+}
+
+
+.serv_post_head > .user_photo {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: #84B6A3 solid 2px;
+}
+
+.serv_post_head > .user_name {
+    font-size: 1rem;
+    color: #84B6A3;
+}
+
+.serv_post_head > .user_name > i {
+    color: gray;
+}
+
+.serv_post_pic > img {
+
+}
+
+.serv_post_maintext {
+    color: #393939;
+    font-size: 0.75rem;
+
+}
+
+.empty_star>button {
+    background-color: #FFFFFF;
+    border: none;
+}
+
+a, a:hover {
+    color: #669885;
+}
+
+a:active {
+    font-weight: bold;
+}
+
+.empty_star>a{
+    color: #8DBFAC;
+    box-shadow: 3px 0px 6px #669885;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.moreButton {
+    background-color: #FFFFFF;
+    border: none;
+    color: #669885;
+}
+
+.empty_star>button{
+    color: #FFFFFF;
+    /*color: #669885;*/
+    font-size: xx-large;
+    background-color: lightgray;
+}
+
+
+.empty_star>button:hover {
+    color: darkorange;
+
+}
+
+.empty_star>button:active {
+    font-size: large;
+
+}
+
+
+
+
+

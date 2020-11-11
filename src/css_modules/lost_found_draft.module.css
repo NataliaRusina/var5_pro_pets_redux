@@ -1,0 +1,90 @@
+
+
+.empty_board{
+    width: 41rem;
+    min-height: auto;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000029;
+    opacity: 1;
+
+}
+
+
+
+.lost_found_draft{
+    color: #393939;
+    border-color: #721c24;
+}
+
+.lost_found_draft>.form_div>form>label{
+    /*width: 5rem;*/
+    font-size: 0.7rem;
+    color: #393939;
+}
+
+.lost_found_draft>.form_div>form>input,
+.lost_found_draft>.form_div>form>textarea,
+.lost_found_draft>.form_div>form>select{
+    /*width: 13rem;*/
+    font-size: 0.7rem;
+    text-align: start;
+    align-content: start;
+    border: none;
+    border-bottom: solid #84B6A3 1px;
+    margin-top: 2px;
+}
+
+.lost_found_draft>.form_div>form>label>i{
+    font-size: 10px;
+    color: #669885;
+}
+
+.lost_found_draft>.form_div>form>textarea{
+    border: solid #84B6A3 1px;
+}
+
+
+.lost_found_draft>div{
+    width: 100%;
+    font-size: 10px;
+}
+
+
+
+.contacts{
+    margin-top: 1rem;
+    padding: 1rem 0;
+    border-top: solid gray 1px;
+
+}
+
+.contacts>form>input,
+.contacts>form>label{
+    /*width: 8rem;*/
+    margin: 0 5px;
+    padding: 0;
+    text-align: start;
+    align-content: start;
+    border: none;
+    border-bottom: solid #84B6A3 1px;
+
+}
+
+
+
+.silPic{
+    min-height: 11rem;
+    border: none;
+    border-bottom: solid #669885 1px;
+
+}
+
+.silPic> image{
+    height: 183px;
+    object-fit: fill;
+}
+
+
+
+
+

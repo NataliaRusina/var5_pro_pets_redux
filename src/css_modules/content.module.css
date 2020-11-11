@@ -1,0 +1,11 @@
+.board_header{
+    color: #669885;
+    margin: 2rem;
+}
+
+.content{
+    position: relative;
+    max-width: 100%;
+    min-height: 100%;
+    background-color: #FFFFFF;
+}

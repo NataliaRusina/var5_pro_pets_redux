@@ -1,0 +1,23 @@
+.error_message {
+    color: #393939;
+}
+
+button {
+    border: solid #669885 1px;
+    border-radius: 17px;
+
+    background-color: #8DBFAC;
+    color: #FFFFFF;
+}
+
+.rel{
+    position: relative;
+
+}
+
+.abs{
+    position: absolute;
+
+
+
+}

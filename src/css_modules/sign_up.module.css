@@ -1,0 +1,169 @@
+
+.display {
+    visibility: visible;
+}
+
+.no_display {
+    visibility: hidden;
+}
+
+.back {
+    /*margin: 0 auto;*/
+    position: relative;
+    height: 50rem;
+    width: 100%;
+    filter: blur(1rem);
+    -webkit-filter: blur(1rem);
+    overflow: hidden;
+}
+
+
+.front {
+    position: absolute;
+    top: 8rem;
+    color: #669885;
+}
+
+.greenLogo {
+    font-weight: 800;
+}
+
+.frontal {
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 40rem;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000029;
+}
+
+
+.sign_in_1 {
+
+    padding: 0.25rem;
+    height: 30px;
+
+}
+
+.sign_in_1 button {
+    border-style: none;
+    background-color: #FFFFFF;
+}
+
+
+.sign_in_2 {
+    /*margin: 0 1rem;*/
+}
+
+.welcome {
+    /*margin-top: 1rem;*/
+    font-size: 0.8rem;
+}
+
+.fb_enter {
+
+    height: 34px;
+    background: #4560A6 0 0 no-repeat padding-box;
+    border: 1px solid #5067B3;
+    border-radius: 17px;
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.sign_in_2 button {
+    /*margin-top: 1rem;*/
+    font-size: 1rem;
+}
+
+
+.sign_in_3 {
+    padding-bottom: 2rem;
+    border-bottom: #BABABA solid 2px;
+    /*margin: -15px 0 5px 0;*/
+}
+
+.but_1, .but_2 {
+    color: #FFFFFF;
+    background: #84B6A3 0 0 no-repeat padding-box;
+    /*margin: -1px;*/
+    height: 2rem;
+    border: none;
+}
+
+.active {
+    opacity: 1;
+}
+
+.passive {
+    opacity: 0.28;
+}
+
+
+label {
+    font-size: 12px;
+    /*margin-left: 0;*/
+    text-align: end;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid #84B6A3;
+    font-size: 0.6rem;
+}
+
+.pass_div {
+    padding: 0;
+    height: 3rem;
+}
+
+
+.instruct_1, .instruct_2 {
+    font-size: 0.5rem;
+    text-align: start;
+}
+
+
+.sign_in_4 {
+    font-size: 0.5rem;
+    height: 2.5rem;
+    /*margin: 0 1rem;*/
+
+}
+
+.last_text button {
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.last_text {
+    color: #BABABA;
+    height: 2.5rem;
+}
+
+
+.cancel {
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    height: 2rem;
+    border: 1px solid #8DBFAC;
+    border-radius: 17px;
+    opacity: 1;
+    color: #8DBFAC;
+    font-size: 0.7rem;
+}
+
+.submit {
+    height: 2rem;
+    background: #84B6A3 0 0 no-repeat padding-box;
+    border: 1px solid #8DBFAC;
+    border-radius: 17px;
+    opacity: 1;
+    color: #FFFFFF;
+    font-size: 0.7rem;
+}
+
+
+
+
+
+
+
+

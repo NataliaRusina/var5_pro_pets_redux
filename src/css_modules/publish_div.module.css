@@ -1,0 +1,45 @@
+
+.publish_div_left>.user_photo {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: #84B6A3 solid 2px;
+}
+
+.publish_div_left>.user_name {
+    font-size: 1rem;
+    color: #84B6A3;
+
+}
+
+.publish_div_right>button>i {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: lighter;
+    height: 1rem;
+}
+
+
+
+.publish_div_right>button {
+    width: 12rem;
+    height: 2.5rem;
+    background: #84B6A3 0 0 no-repeat padding-box;
+    border: 1px solid #8DBFAC;
+    border-radius: 17px;
+    opacity: 1;
+    color: #FFFFFF;
+    font-size: 0.75rem;
+}
+
+.publish_div_right>button:hover {
+    background-color: lightgrey;
+    color: darkorange;
+
+}
+
+.publish_div_right>button:active{
+    border: solid gray 3px;
+
+}

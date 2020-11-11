@@ -1,0 +1,132 @@
+.empty_board {
+    width: 41rem;
+    min-height: auto;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000029;
+    opacity: 1;
+
+}
+
+.fingers_crossed {
+    color: #84B6A3;
+    margin: 2rem;
+}
+
+.share_label {
+    color: #1b1e21;
+    margin-left: 1rem;
+    width: auto;
+    padding: 0;
+
+}
+
+.confirm_publ_button {
+    /*width: 10rem;*/
+    height: 2.5rem;
+    background: #84B6A3 0 0 no-repeat padding-box;
+    border: 1px solid #8DBFAC;
+    border-radius: 17px;
+    opacity: 1;
+    color: #FFFFFF;
+    font-size: 0.75rem;
+
+}
+
+.confirm_publ_button:hover, .confirm_edit_button:hover {
+    background-color: lightgrey;
+}
+
+.confirm_publ_button:active, .confirm_edit_button:active {
+    border: solid gray 3px;
+}
+
+.confirm_publ_button i {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: lighter;
+    height: 1rem;
+}
+
+.confirm_edit_button i{
+    color: #669885;
+    font-size: 1rem;
+    font-weight: lighter;
+    height: 1rem;
+}
+
+
+.confirm_edit_button{
+    /*width: 8rem;*/
+    height: 2.5rem;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    border: 1px solid #669885;
+    border-radius: 17px;
+    opacity: 1;
+    color: #669885;
+    font-size: 0.75rem;
+
+}
+
+.confirm_last_info{
+    font-size: 0.7rem;
+    color: gray;
+}
+
+.confirm_photo_div> img{
+    width: 16rem;
+    height: 16rem;
+    object-fit: cover;
+}
+
+.confirm_info_div{
+    color: #669885;
+}
+
+.confirm_info_div div {
+    font-size: 0.75rem;
+}
+
+.confirm_info_div .postName {
+    font-size: 1rem;
+}
+
+.upd_button{
+    margin: 0 1rem;
+    width: 1.2rem;
+    height: 1rem;
+    background-color: lightgray;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+
+
+
+
+.confirm_div_left>.user_photo {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: #84B6A3 solid 2px;
+}
+
+.confirm_div_left>.user_name {
+    font-size: 0.7rem;
+    color: #84B6A3;
+
+}
+
+.confirm_contact_button {
+    margin: 0 1rem;
+    width: 1.3rem;
+    height: 1rem;
+    background-color: lightgray;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* .no_display{*/
+/*    visibility: hidden;*/
+/*}*/

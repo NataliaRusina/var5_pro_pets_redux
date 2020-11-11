@@ -1,0 +1,44 @@
+.right_side_bar {
+    min-height: 100%;
+    margin: 0;
+    background: #84B6A3;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right_side_bar button{
+    background-color: #84B6A3;
+    border: none;
+    color: #FFFFFF;
+
+}
+
+.right_side_bar button:hover{
+    color: #FFE18B;
+
+}
+
+.right_side_bar button:active{
+    font-size: 1.1rem;
+}
+
+
+.right_side_bar button p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.withMap{
+    border-top-left-radius: 1rem;
+    min-height: 100%;
+}
+
+.map {
+    height: 100%;
+    border: solid darkorange 1px;
+
+
+}
+

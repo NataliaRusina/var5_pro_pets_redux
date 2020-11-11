@@ -1,0 +1,95 @@
+.headerWhite {
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    min-height: 4.5rem;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+
+}
+
+.headerWhite i {
+    color: #669885;
+}
+
+.logoBut {
+    background-color: #FFFFFF;
+    border: none;
+    width: 142px;
+    height: 33px;
+
+}
+
+.logoBut:hover {
+    border: none;
+    opacity: 30%;
+
+}
+
+.logoBut:active {
+    border: none;
+    opacity: 100%;
+
+}
+
+
+.greenLogo {
+    color: #669885;
+    font-weight: 900;
+}
+
+.addNewBut {
+    background-color: #84B6A3;
+    border: #8DBFAC;
+    width: 10rem;
+    border-radius: 1rem;
+    color: #FFFFFF;
+    height: 2.5rem;
+    visibility: visible;
+    font-weight: bold;
+
+}
+
+.iLostBut, .iFoundBut {
+
+    width: 10rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    height: 2.5rem;
+    visibility: visible;
+
+}
+
+.iLostBut {
+    background-color: #FFE18B;
+    border: #FFE78D;
+    color: #393939;
+}
+
+.iFoundBut {
+    background-color: #84B6A3;
+    border: #8DBFAC;
+    color: #FFFFFF;
+}
+
+.addNewBut p, .iLostBut p, .iFoundBut p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.logoWhite {
+
+    filter: invert(60%) sepia(3%) saturate(2007%) hue-rotate(106deg) brightness(109%) contrast(109%);
+}
+
+.logoWhite:hover{
+    opacity: 30%;
+}
+
+.logoWhite:active{
+    opacity: 100%;
+}
+
+.bars{
+    color: #669885;
+
+}
+

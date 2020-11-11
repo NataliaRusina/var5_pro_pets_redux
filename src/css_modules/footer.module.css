@@ -1,0 +1,47 @@
+
+.footer {
+    background-color: #669885;
+    max-width: 100%;
+    min-height: 12rem;
+    color: #FFFFFF;
+    box-shadow: 6px 3px 0 #00000029;
+
+}
+
+.icons {
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+.footer i {
+    margin: 0 1rem;
+    color: #FFFFFF;
+}
+
+
+.address {
+    padding: 0.3rem;
+    font-size: 0.75rem;
+    color: #FFFFFF;
+}
+
+.footer button {
+    border: none;
+    background-color: #669885;
+    color: #FFFFFF;
+}
+
+.footer button:hover, .footer button i:hover {
+
+    color: coral;
+}
+
+.footer button:active {
+    opacity: 30%;
+}
+
+li {
+    padding: 0 1rem;
+}
+
+

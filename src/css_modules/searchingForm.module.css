@@ -1,0 +1,7 @@
+.type, .breed, .addFeat, .location{
+    border: solid #669885 1px;
+    border-radius: 2rem;
+    color: #669885;
+    padding-left: 1rem;
+
+}

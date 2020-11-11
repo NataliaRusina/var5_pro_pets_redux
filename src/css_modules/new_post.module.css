@@ -1,0 +1,53 @@
+.empty_board {
+    /*width: 41rem;*/
+    min-height: auto;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000029;
+    opacity: 1;
+    /*margin: 1rem;*/
+    /*padding: 1rem;*/
+}
+
+.post_instr strong {
+    color: #393939;
+    font-size: 0.75rem;
+}
+
+.post_instr i {
+    color: #669885;
+    font-size: 0.7rem;
+    padding: 0;
+}
+
+
+.post_area {
+    border: solid #669885 1px;
+    min-height: auto;
+    color: #669885;
+    font-size: 0.75rem;
+}
+
+.bigPhoto img {
+    width: 10rem;
+    height: 7rem;
+    object-fit: contain;
+    border: solid #669885 1px;
+    margin: 0;
+}
+
+.smallPhotos img {
+    width: 3.3rem;
+    height: 2.3rem;
+    object-fit: contain;
+    border: solid #669885 1px;
+    margin: 0;
+}
+
+.smallPhotos button {
+    width: 3.3rem;
+    height: 2.3rem;
+    border: solid #669885 1px;;
+    margin: 0;
+    background-color: #669885;
+    color: #FFFFFF;
+}
