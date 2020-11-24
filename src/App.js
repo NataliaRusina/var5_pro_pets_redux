@@ -1,8 +1,6 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import './App.css';
-import Start_page from "./components/Start_page";
-import {Switch, Route} from "react-router-dom";
-import ErrorPage from "./components/ErrorPage";
+import MyProPets from "./containers/MyProPetsContainer";
 
 
 
@@ -10,14 +8,8 @@ function App() {
 
     return (
         <div>
-            <Switch>
-                <Route path={['/', '/main', '/login', '/registration']} exact render={() => <Start_page/>}/>
-                <Route component={ErrorPage}/>
-            </Switch>
-
-
+            <MyProPets/>
         </div>
-
     );
 }
 

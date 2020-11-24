@@ -1,6 +1,6 @@
 import React from 'react';
-import Sign_up_form from "./Sign_up_form";
-import Sign_in_form from "./Sign_in_form";
+import Sign_up_form from "../containers/RegistrationContainer";
+import Sign_in_form from "../containers/LoginContainer";
 
 const FillForm = () => {
     return (

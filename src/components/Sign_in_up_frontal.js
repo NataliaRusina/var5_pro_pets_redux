@@ -41,17 +41,6 @@ const SignInFrontal = () => {
 
             <FillForm/>
 
-            <div className={`row d-flex flex-wrap align-items-end justify-content-around ${styles.sign_in_4}`}>
-                <div className={`col-12 col-sm-5 ml-2 mb-2 ${styles.last_text}`}>By clicking “Submit”,
-                    you agree to us processing your <br/>
-                    information in accordance with <button><u>these terms</u></button>.
-                </div>
-                <button className={`col-8 col-sm-2 mt-1 ${styles.cancel}`}>Cancel</button>
-                <button className={`col-8 col-sm-3 mt-1 d-flex flex-wrap align-content-center 
-                justify-content-around fa fa-paw ${styles.submit}`}>Submit
-                </button>
-
-            </div>
         </div>
     );
 };

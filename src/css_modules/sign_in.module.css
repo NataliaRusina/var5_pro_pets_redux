@@ -131,6 +131,7 @@ label {
 .last_text button {
     border: none;
     background-color: #FFFFFF;
+
 }
 
 .last_text {
@@ -138,6 +139,17 @@ label {
     height: 2.5rem;
 }
 
+.last_text u {
+    color: #669885;
+}
+
+.last_text u:hover {
+    color: darkorange;
+}
+
+.last_text u:active {
+    color: #393939;
+}
 
 .cancel {
     background: #FFFFFF 0 0 no-repeat padding-box;

@@ -6,17 +6,17 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter} from "react-router-dom";
-// import {Provider} from "react-redux";
-// import {store} from "./store/StoreConfig";
+import {Provider} from "react-redux";
+import {store} from "./store/StoreConfig";
 
 
 ReactDOM.render(
     <React.StrictMode>
-        {/*<Provider store={store}>*/}
+        <Provider store={store}>
             <BrowserRouter>
                 <App/>
             </BrowserRouter>
-        {/*</Provider>*/}
+        </Provider>
     </React.StrictMode>,
     document.getElementById('root')
 );

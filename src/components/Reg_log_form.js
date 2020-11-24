@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import Sign_in_frontal from "./Sign_in_frontal";
+import Sign_in_frontal from "./Sign_in_up_frontal";
 import styles from '../css_modules/reg_log_form.module.css';
 
 
