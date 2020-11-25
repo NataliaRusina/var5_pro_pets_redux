@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from '../css_modules/left_side_bar.module.css'
+import LogOutUser from "../containers/LogOutUserContainer";
 
-const LeftSideBarExpanded = () => {
+const LeftSideBarExpanded = (props) => {
 
     return (
         <div className={`container-fluid ${styles.left_side_bar} ml-0 pl-0 d-flex flex-wrap justify-content-end 
@@ -81,7 +82,8 @@ const LeftSideBarExpanded = () => {
 
                 <div className={`row align-content-start ${styles.menu_ava} pt-4`}>
                     <button className='col-4 p-0'>
-                        <img src='https://www.gravatar.com/avatar/0?d=mp' alt='user' className={`${styles.user_photo}`}/>
+                        <img src='https://www.gravatar.com/avatar/0?d=mp' alt='user'
+                             className={`${styles.user_photo}`}/>
                     </button>
                     <div className={`col-8 ${styles.user_name} justify-content-center`}>Anna Smith</div>
                 </div>
@@ -91,8 +93,8 @@ const LeftSideBarExpanded = () => {
                     <div className='p-4'>
                         <i className='fa fa-sign-out fa-lg'/>
                     </div>
-                    <div className='p-4 justify-content-center'>Logut</div>
-
+                    {/*<div className='p-4 justify-content-center' onClick={()=>props.logOutUser()}>LogOut</div>*/}
+                    <LogOutUser/>
 
                 </button>
 

@@ -53,7 +53,9 @@ const SignInForm = (props) => {
                 </div>
                 <button onClick={()=> {clearForm()}} className={`col-8 col-sm-2 mt-1 ${styles.cancel}`}>Cancel</button>
                 <a href='/main' className={`col-8 col-sm-3 mt-1`}>
-                    <button onClick={() => logUser()} className={`col-12 d-flex flex-wrap align-content-center 
+                    <button onClick={(e) => {e.preventDefault();
+                        logUser();
+                    }} className={`col-12 d-flex flex-wrap align-content-center 
                 justify-content-around fa fa-paw ${styles.submit}`}>Submit
                     </button>
                 </a>

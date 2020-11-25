@@ -47,6 +47,7 @@ export const loginUserAction = authorization => {
         })
             .then(response => {
                 if (response.status === 200) {
+                    console.log('success login');
                     return response.json();
                 } else {
                     throw new Error(response.statusText);

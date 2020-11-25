@@ -7,21 +7,22 @@ import WorkingPage from "./Working_page";
 
 const MyProPets = (props) => {
 
-    // const [authorization, setAuthorization] = useState('');
+    const [authorization, setAuthorization] = useState(JSON.parse(localStorage.getItem('authorization')));
 
-    // useEffect(() => {
-    //
-    //     setAuthorization(JSON.parse(localStorage.getItem('authorization')));
-    //     if (authorization) {
-    //         console.log(authorization);
-    //         props.loginSavedUser(authorization);
-    //     } else {
-    //         console.log('no token')
-    //     }
-    //
-    // }, []);
+    useEffect(() => {
+
+        console.log(authorization);
+        if (authorization) {
+            console.log('authorization OK');
+            props.loginSavedUser(authorization);
+        } else {
+            console.log('no token')
+        }
+
+    }, []);
 
     console.log(props.user.email);
+    console.log(JSON.parse(localStorage.getItem('authorization')));
 
     return (
         <div>
@@ -34,9 +35,9 @@ const MyProPets = (props) => {
                 )}/>
 
                 <Route path={'/home'} exact render={() => (
-                    // (!props.user.email) ? (
-                    //         <Redirect to='/main'/>
-                    //     ) :
+                    (!props.user.email) ? (
+                            <Redirect to='/main'/>
+                        ) :
                         <WorkingPage/>
                 )}/>
 
