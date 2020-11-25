@@ -139,7 +139,8 @@ const SignUpForm = (props) => {
                 }} className={`col-8 col-sm-2 mt-1 ${styles.cancel}`}>Cancel
                 </button>
                 <a href='/main' className={`col-8 col-sm-3 mt-1`}>
-                    <button onClick={() => regUser()} className={`col-12 d-flex flex-wrap align-content-center 
+                    <button onClick={(e) => {e.preventDefault();
+                    regUser()}} className={`col-12 d-flex flex-wrap align-content-center 
                 justify-content-around fa fa-paw ${styles.submit}`}>Submit
                     </button>
                 </a>
